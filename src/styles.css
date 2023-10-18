@@ -2,3 +2,40 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.image {
+  width: 30vw;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+}
+
+.button:first-child {
+  left: 10px;
+  font-size: 100px;
+}
+.button:first-child:hover {
+  font-size: 150px;
+}
+.button:last-child {
+  right: 10px;
+  font-size: 100px;
+}
+.button:last-child:hover {
+  font-size: 150px;
+}
